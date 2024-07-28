@@ -10,11 +10,14 @@
     font-family: "Inter", sans-serif;
 }
 header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); 
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%)!important; 
+}
+section{
+    margin-top: 20px;
 }
 .shape{
     color: rgb(255, 255, 255);
-    font-size:100px;
+    font-size:80px;
     font-weight: 900;
     font-family: "Dancing Script", cursive;
 }
@@ -90,7 +93,7 @@ header{
 .banner-contain h1{
     color: rgb(255, 255, 255);
     font-family: Inter;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: 900;
 }
 .banner-contain p{
@@ -191,6 +194,56 @@ header{
     font-weight: 400;
     background: transparent;
 }
+/* main part start */
+.container{
+    max-width: 1440px;
+    height: 442px;
+    margin: 0 auto;
+}
+
+.text-contain h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+}
+.text-contain p{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+    text-align: center;
+}
+.img-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 54px;
+}
+.img-iteam img{
+    border-radius: 50%;
+}
+.img-iteam h3{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 58px;
+}
+.img-iteam h4{
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+
 /* responsive part for mobile */
 @media only screen and (max-width: 576px){
     .header-container{
@@ -257,6 +310,20 @@ header{
         border: 1px solid rgb(255, 255, 255);
         border-radius: 10px;
     }
-   
+    .text-contain h1{
+        font-size: 35px;
+    }
+    .container{
+        width: 100%;
+    }
+    .img-container{
+        flex-direction: column;
+    }
+    .img-iteam h3{
+        margin-top: 40px;
+    }
+    .img-iteam h4{
+        margin-bottom: 6px;
+    }
 
 }
