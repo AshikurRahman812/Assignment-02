@@ -524,6 +524,7 @@ main{
     }
     .training-part{
         width: 100%;
+        padding: 10px;
     }
     .img-items-3{
         display: none;
@@ -532,10 +533,10 @@ main{
         display: none;
     }
     .img-items-1{
-        width: 50%;
+        width: 42%;
     }
     .img-items-2{
-        width: 50%;
+        width: 58%;
     }
     .img-items-3{
         width: 50%;
