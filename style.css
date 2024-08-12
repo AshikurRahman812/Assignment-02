@@ -560,7 +560,69 @@ input{
     outline: none;
     padding: 12px 30px;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
+/* our service part start */
+.our-section{
+    margin-top: 20px;
+}
+.our-Service{
+    max-width: 1660px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.our-Service h1{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 900;
+    text-align: center;
+}
+.our-text{
+    color: rgb(20, 188, 149);
+    font-family: Inter;
+    font-size: 58px;
+    font-weight: 900;
+    text-align: center;
+}
+.our-img-container{
+    max-width: 1660px;
+    margin: 0 auto;
+    margin-top: 58px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+}
+.bg-1,.bg-2{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+
+}
+ .row{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(106, 106, 243, 0.105), 0 6px 20px 0 rgba(73, 175, 238, 0.105);
+    transition: all 0.5s ease;
+ } 
+ .row:hover{
+    transform:translateY(-5px) scale(1.04);
+ }
+ .row h5{
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 900;
+ }  
+
+.row img{
+    height: auto;
+    width: 400px;
+    border-radius: 20px;
+    object-fit: contain;
+}
+
 /* our container part start */
 .our-part{
     margin-top: 30px;
@@ -913,5 +975,14 @@ input{
     }
     .img-container-1{
         display: none;
+    }
+    .our-Service{
+        width: 100%;
+    }
+    .bg-1,.bg-2{
+        flex-direction: column;
+    }
+    .row img{
+        width: 100%;
     }
 }
